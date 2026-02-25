@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Назад в будущее - Актерский состав</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Дополнительные стили для страницы актеров */
+        .actor {
+            border-bottom: 2px solid #eaeaea;
+            padding: 20px 0;
+            margin: 20px 0;
+        }
+        
+        .actor:last-child {
+            border-bottom: none;
+        }
+        
+        .actor img {
+            border-radius: 8px;
+            margin-right: 20px;
+            float: left;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .actor-info {
+            overflow: hidden; /* Для обтекания floated изображения */
+        }
+        
+        .actor h2 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О фильме</a></li>
+                <li><a href="cast.html">Актеры</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Актерский состав</h1>
+        
+        <div class="actor clearfix">
+            <img src="images/michael-fox.jpg" alt="Майкл Дж. Фокс" width="200">
+            <div class="actor-info">
+                <h2>Майкл Дж. Фокс</h2>
+                <p><strong>Роль:</strong> Марти МакФлай</p>
+                <p><strong>Дата рождения:</strong> 9 июня 1961 года</p>
+                <p>Канадский и американский актер, наиболее известный по роли Марти МакФлая в трилогии "Назад в будущее". 
+                Интересный факт: на момент съемок первой части Фоксу было 24 года, хотя он играл 17-летнего подростка.</p>
+            </div>
+        </div>
+
+        <div class="actor clearfix">
+            <img src="images/loyd.jpg" alt="Кристофер Ллойд" width="200">
+            <div class="actor-info">
+                <h2>Кристофер Ллойд</h2>
+                <p><strong>Роль:</strong> Доктор Эмметт Браун</p>
+                <p><strong>Дата рождения:</strong> 22 октября 1938 года</p>
+                <p>Американский актер, прославившийся ролью эксцентричного ученого Дока Брауна. Его фраза "Great Scott!" 
+                стала одной из самых узнаваемых в истории кино. Ллойд мастерски передал образ безумного гения с добрым сердцем.</p>
+            </div>
+        </div>
+
+        <div class="actor clearfix">
+            <img src="images/lea-thompson.jpg" alt="Лиа Томпсон" width="200">
+            <div class="actor-info">
+                <h2>Лиа Томпсон</h2>
+                <p><strong>Роль:</strong> Лоррейн Бейнс-МакФлай</p>
+                <p><strong>Дата рождения:</strong> 31 мая 1961 года</p>
+                <p>Американская актриса, сыгравшая маму Марти - Лоррейн. В первой части ей пришлось играть подростка, 
+                влюбленного в собственного сына, что создавало уникальные комедийные ситуации. Томпсон блестяще справилась 
+                с этой сложной задачей.</p>
+            </div>
+        </div>
+
+        <div class="actor clearfix">
+            <img src="images/thomas-wilson.jpg" alt="Томас Ф. Уилсон" width="200">
+            <div class="actor-info">
+                <h2>Томас Ф. Уилсон</h2>
+                <p><strong>Роль:</strong> Бифф Таннен</p>
+                <p><strong>Дата рождения:</strong> 15 апреля 1959 года</p>
+                <p>Американский актер и комик, создавший один из самых запоминающихся образов кинозлодея - Биффа Таннена. 
+                Интересно, что Уилсон по натуре совсем не похож на своего персонажа - он образованный и интеллигентный человек, 
+                что делает его актерскую работу еще более впечатляющей.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Фанатский сайт о "Назад в будущее". Все права на фильм принадлежат Universal Pictures.</p>
+    </footer>
+
+</body>
+</html>
