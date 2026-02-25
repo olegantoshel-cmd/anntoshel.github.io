@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: purple;
+}
+
+a {
+    color: red;
+}
+
+img {
+    border: 2px solid black;
+    width: 200px;
+}
